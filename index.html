@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyStudent Portal - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html" style="display:flex; align-items:center; text-decoration:none; color:white;">
+          <img src="assets/logo.jpg" alt="University Logo">
+          <span style="font-size:1.5rem; font-weight:bold;">MyStudent Portal</span>
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="register.html">Registration</a></li>
+        <li><span id="datetime"></span></li>
+      </ul>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to Our University</h2>
+      <p>Manage academic information, register for courses, and view your profile easily.</p>
+      <a href="register.html" class="btn">Register Now</a>
+    </section>
+
+    <section class="about">
+      <h2> About Our University</h2>
+      <p> Providing quality education with modern facilities and experienced faculty for your academic journey.</p>
+
+      <div class="grid-container">
+        <article class="card">
+          <h3>Programs Offered</h3>
+          <ul>
+            <li>Computer Science</li>
+            <li>Business Administration</li>
+            <li>Engineering</li>
+            <li>Arts & Sciences</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Campus Facilities</h3>
+          <ul>
+            <li>Library with 50,000+ books</li>
+            <li>Computer Labs</li>
+            <li>Sports Complex</li>
+            <li>Student Centre</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Academic Services</h3>
+          <ul>
+            <li>Advising & Counseling</li>
+            <li>Workshops & Labs</li>
+            <li>Career Services</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Gallery & Video</h2>
+      <div class="gallery-grid">
+        <img src="assets/uni.jpg" alt="Campus view 1">
+        <img src="assets/uni1.jpg" alt="Campus view 2">
+        <video controls>
+          <source src="assets/univideo.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyStudent Portal | All Rights Reserved</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

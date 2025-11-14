@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyStudent Portal - Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- body -->
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="assets/logo.jpg" alt="University Logo" />
+        <h1>MyStudent Portal</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html" class="active">Profile</a></li>
+        <li><a href="register.html">Registration</a></li>
+      </ul>
+    </nav>
+  </header>
+<!-- main section -->
+  <main>
+    <section class="profile-section">
+      <h2>Student Profile</h2>
+
+      <div class="profile-grid">
+        <div class="profile-card">
+          <img src="assets/mypic.jpg" alt="Student Photo" class="profile-img" />
+          <h3 id="pname">Muhammad Junaid</h3>
+          <p><strong>Email:</strong> 
+
+            <span id="pemail">junaid@example.com</span></p>
+          <p><strong>Program:</strong> 
+            <span id="pprogram">BS Computer Science</span></p>
+          <p><strong>Registration Date:</strong> 
+            <span id="pregdate">2025-10-28</span></p>
+          <p><strong>Date of Birth:</strong> 
+            <span id="pdob">02-02-2004</span></p>
+
+          <p><strong>Age:</strong> 
+            <span id="page">20</span></p>
+        </div>
+ <!-- Table for data showing -->
+        <div class="profile-table">
+          <table>
+            <tr>
+              <th>Field</th>
+              <th>Information</th>
+            </tr>
+            <tr>
+              <td>Name</td>
+              <td id="tpname">Muhammad Junaid</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td id="tpemail">junaid@example.com</td>
+            </tr>
+            <tr>
+              <td>Program</td>
+              <td id="tpprogram">BS Computer Science</td>
+            </tr>
+            <tr>
+              <td>Registration Date</td>
+              <td id="tpregdate">2025-10-28</td>
+            </tr>
+            <tr>
+              <td>Date of Birth</td>
+              <td id="tpdob">02-02-2004</td>
+            </tr>
+            <tr>
+              <td>Age</td>
+              <td id="tpage">20</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+<!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MyStudent Portal | All Rights Reserved</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

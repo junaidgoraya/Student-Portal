@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyStudent Portal - Registration</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<nav class="navbar">
+  <div class="logo">
+    <img src="assets/logo.jpg" alt="University Logo"/>
+    <h1>MyStudent Portal</h1>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="profile.html">Profile</a></li>
+    <li><a href="register.html" class="active">Registration</a></li>
+  </ul>
+  <div class="hamburger">
+    <div></div><div></div><div></div>
+  </div>
+</nav>
+</header>
+
+<main>
+<h2>Student Registration</h2>
+<form id="registerForm">
+  <input type="text" id="name" placeholder="Full Name" required>
+  <input type="email" id="email" placeholder="Email" required>
+  <input type="password" id="password" placeholder="Password" required>
+  <input type="text" id="program" placeholder="Program">
+  <input type="date" id="dob">
+  <input type="number" id="age" placeholder="Age">
+  <label for="favcolor">Favorite Color</label>
+  <input type="color" id="favcolor">
+  <button type="submit" class="btn">Register</button>
+</form>
+</main>
+
+<footer>
+<p>&copy; 2025 MyStudent Portal | All Rights Reserved</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
