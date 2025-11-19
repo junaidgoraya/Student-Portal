@@ -39,6 +39,53 @@ h1,h2,h3 { color:#0C3C60; }
 .profile-card { background:white; padding:20px; border-radius:15px; box-shadow:0 4px 8px rgba(0,0,0,0.1); text-align:center; border:3px solid #18A999; transition:0.3s; }
 .profile-card:hover { transform:scale(1.02); }
 .profile-img { width:120px; height:120px; border-radius:50%; object-fit:cover; margin-bottom:15px; border:3px solid #18A999; }
+/* Profile Table */
+.profile-table {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border: 3px solid #18A999;
+}
+
+.profile-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.profile-table th {
+  background: #0C3C60;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.profile-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-table tr:hover td {
+  background: #E6EEF3;
+}
+
+/* Even row light shading */
+.profile-table tr:nth-child(even) td {
+  background: #f9f9f9;
+}
+
+/* Responsive Table for Mobile */
+@media(max-width: 768px){
+  .profile-table {
+    margin-top: 20px;
+  }
+
+  .profile-table table {
+    font-size: 0.9rem;
+  }
+}
 
 /* Footer */
 footer { background:#0C3C60; color:white; text-align:center; padding:15px; }
