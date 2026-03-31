@@ -26,7 +26,7 @@ Student-Portal/
 
 ⚡ Installation / How to Use
 Clone the repository:
-git clone https://github.com/yourusername/Student-Portal.git
+git clone https://github.com/junaidgoraya/Student-Portal.git
 Open index.html in a web browser
 Explore the student dashboard, courses, grades, and announcements
 
